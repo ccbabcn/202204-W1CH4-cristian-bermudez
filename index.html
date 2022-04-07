@@ -23,7 +23,7 @@
       <section class="command-line">
         <img
           class="command-line__ico"
-          src="/images/plus.svg"
+          src="images/plus.svg"
           alt="añadir producto"
         />
         <div class="command-line__quote">
@@ -31,32 +31,48 @@
         </div>
       </section>
       <section class="cart-items">
-        <ul class="cart-items__products">
-          <li>
-            <input type="checkbox" id="scales" checked />
-            <label for="scales">Pan</label>
-          </li>
-          <li>
-            <input type="checkbox" id="scales" checked />
-            <label for="scales">Azúcar</label>
-          </li>
-          <li>
-            <input type="checkbox" id="scales" checked />
-            <label for="scales">Leche</label>
-          </li>
-        </ul>
-        <ul class="cart-items__prices">
-          <li>
-            0.75€
-            <img
-              class="cart-items__prices__x"
-              src="/images/x.svg"
-              alt="quitar"
-            />
-          </li>
-          <li></li>
-          <li>1.20€</li>
-        </ul>
+        <div class="cart-items__products">
+          <ul>
+            <li>
+              <input type="checkbox" id="scales" checked />
+              <label for="scales">Pan</label>
+            </li>
+            <li>
+              <input type="checkbox" id="scales" checked />
+              <label for="scales">Azúcar</label>
+            </li>
+            <li>
+              <input type="checkbox" id="scales" checked />
+              <label for="scales">Leche</label>
+            </li>
+          </ul>
+        </div>
+        <div>
+          <ul class="cart-items__prices">
+            <li>
+              0.75€
+              <img
+                class="cart-items__prices__x"
+                src="images/x.svg"
+                alt="quitar"
+              />
+            </li>
+            <li>
+              <img
+                class="cart-items__prices__x"
+                src="images/x.svg"
+                alt="quitar"
+              />
+            </li>
+            <li>
+              1.20€<img
+                class="cart-items__prices__x"
+                src="images/x.svg"
+                alt="quitar"
+              />
+            </li>
+          </ul>
+        </div>
       </section>
       <h2 class="cart-total">1.95€</h2>
     </div>
