@@ -9,41 +9,47 @@
     <title>Cristian B. - Lista de la compra</title>
   </head>
   <body>
-    <section>
-      <h1>Lista de la compra</h1>
-      <nav>
-        <ul>
-          <li>Principal</li>
-          <li>Lista</li>
-          <li>Acerca de</li>
+    <div class="main-container">
+      <section class="header">
+        <h1>Lista de la compra</h1>
+        <nav class="header__nav">
+          <ul class="nav__list">
+            <li>Principal</li>
+            <li>Lista</li>
+            <li>Acerca de</li>
+          </ul>
+        </nav>
+      </section>
+      <section class="command-line">
+        <img
+          class="command-line__ico"
+          src="/images/plus.svg"
+          alt="añadir producto"
+        />
+        <h2>2/3 comprados</h2>
+      </section>
+      <section class="cart-items">
+        <ul class="cart-items__products">
+          <li>
+            <input type="checkbox" id="scales" checked />
+            <label for="scales">Pan</label>
+          </li>
+          <li>
+            <input type="checkbox" id="scales" checked />
+            <label for="scales">Azúcar</label>
+          </li>
+          <li>
+            <input type="checkbox" id="scales" checked />
+            <label for="scales">Leche</label>
+          </li>
         </ul>
-      </nav>
-    </section>
-    <section>
-      <img src="/images/plus.svg" alt="añadir producto" />
-      <h2>2/3 comprados</h2>
-    </section>
-    <section>
-      <ul>
-        <li>
-          <input type="checkbox" id="scales" checked />
-          <label for="scales">Pan</label>
-        </li>
-        <li>
-          <input type="checkbox" id="scales" checked />
-          <label for="scales">Azúcar</label>
-        </li>
-        <li>
-          <input type="checkbox" id="scales" checked />
-          <label for="scales">Leche</label>
-        </li>
-      </ul>
-      <ul>
-        <li>0.75€</li>
-        <li></li>
-        <li>1.20€</li>
-      </ul>
-    </section>
-    <h2>1.95€</h2>
+        <ul class="cart-items__prices">
+          <li>0.75€</li>
+          <li></li>
+          <li>1.20€</li>
+        </ul>
+      </section>
+      <h2 class="cart-total">1.95€</h2>
+    </div>
   </body>
 </html>
