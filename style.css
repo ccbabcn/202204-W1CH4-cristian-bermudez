@@ -79,7 +79,9 @@ li {
   background: var(--main-orange);
   padding: var(--defaul-padding);
 }
-
+input:checked + label {
+  text-decoration: line-through;
+}
 .cart-items__prices {
   display: flex;
   flex-direction: column;
