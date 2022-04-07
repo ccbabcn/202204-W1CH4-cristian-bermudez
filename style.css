@@ -67,6 +67,14 @@ li {
   align-items: center;
   gap: 10px;
 }
+.cart-items__products li:hover {
+  background: var(--hover-orange);
+  color: #fff;
+  fill: #fff;
+}
+.cart-items__products li:hover img {
+  filter: invert(100%);
+}
 .cart-items {
   background: var(--main-orange);
   padding: var(--defaul-padding);
@@ -91,5 +99,6 @@ li {
   --main-blue: #5e81d1;
   --main-orange: #ff8d27;
   --main-orange-strong: #f87500;
+  --hover-orange: #c16b1e;
   --defaul-padding: 15px 15px 15px 15px;
 }
