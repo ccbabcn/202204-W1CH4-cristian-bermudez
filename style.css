@@ -97,6 +97,27 @@ input:checked + label {
   text-align: right;
 }
 
+.form-container {
+  width: 100%;
+  padding: var(--defaul-padding);
+  display: flex;
+  flex-direction: column;
+}
+.new-product-form div * {
+  display: block;
+  margin: 10px 0;
+  border: none;
+}
+.new-product-form input {
+  height: 50px;
+}
+input[type="submit"] {
+  padding: 0 10px;
+  margin-top: 10px;
+  font-size: 1.35rem;
+  color: #fff;
+  background: var(--main-blue);
+}
 :root {
   --main-blue: #5e81d1;
   --main-orange: #ff8d27;

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="images/favicon.png" type="image/png" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Cristian B. - Lista de la compra</title>
+  </head>
+  <body>
+    <div class="main-container">
+      <section class="header">
+        <h1>Lista de la compra</h1>
+        <nav class="header__nav">
+          <ul class="nav__list">
+            <li>Principal</li>
+            <li>Lista</li>
+            <li>Acerca de</li>
+          </ul>
+        </nav>
+      </section>
+      <section class="command-line">
+        <a href="index.html"
+          ><img
+            class="command-line__ico"
+            src="images/minus.svg"
+            alt="añadir producto"
+          />
+        </a>
+
+        <div class="command-line__quote">
+          <h2>2/3 comprados</h2>
+        </div>
+      </section>
+      <section class="form-container">
+        <h2>Editar artículo</h2>
+        <form class="new-product-form">
+          <div class="new-product-form__name">
+            <label for="name">Nombre: </label>
+            <input type="text" id="name" />
+          </div>
+          <div class="new-product-form__price">
+            <label for="price">Precio: </label>
+            <input type="number" id="price" min="0" step="0.01" />
+          </div>
+          <div class="new-product-form_button">
+            <input type="submit" value="Modificar" />
+          </div>
+        </form>
+      </section>
+    </div>
+  </body>
+</html>
